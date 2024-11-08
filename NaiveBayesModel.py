@@ -5,8 +5,6 @@ import nltk # Import natural Language Toolkit lib
 # For EDA
 import matplotlib.pyplot as plt
 import seaborn as sns
-from cuml.benchmark.bench_helper_funcs import predict
-from cupyx.fallback_mode.fallback import vectorize
 from wordcloud import WordCloud
 from collections import Counter
 
