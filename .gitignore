@@ -1,6 +1,6 @@
 #Exclude some folders
 Dataset/
-
+*.pkl
 # for pycharm:
 # Created by .ignore support plugin (hsz.mobi)
 ### Python template
