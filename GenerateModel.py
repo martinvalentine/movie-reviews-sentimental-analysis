@@ -145,7 +145,7 @@ plt.show()
 # Save model and vectorizer
 model_directory = './Model'
 os.makedirs(model_directory, exist_ok=True)
-model_path = os.path.join(model_directory, 'model_bi.pkl')
+model_path = os.path.join(model_directory, 'model.pkl')
 with open(model_path, 'wb') as model_file:
     pickle.dump({
         'model': model,
